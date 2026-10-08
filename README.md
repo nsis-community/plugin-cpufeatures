@@ -8,11 +8,12 @@ This repository mirrors the CPUFeatures plug-in, which was previously hosted on 
 
 **Are you the author?** You're welcome to take it over: [open an issue](https://github.com/nsis-community/plugin-cpufeatures/issues/new) and we'll transfer the repository to you.
 
-> [!NOTE]
-> **Looking for the usage guide?** See [Docs/CPUFeatures/GPL.txt](Docs/CPUFeatures/GPL.txt).
-
 ## Installation
 
 Download the installer or archive from the [Releases page](https://github.com/nsis-community/plugin-cpufeatures/releases).
 
 If you downloaded the zip archive, extract it into your NSIS folder: it adds `CPUFeatures.dll` to `Plugins/<variant>/` and its headers to `Include/`.
+
+## License
+
+See [LICENSE.txt](LICENSE.txt).
