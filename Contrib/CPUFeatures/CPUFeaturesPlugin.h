@@ -25,7 +25,7 @@
 #define WIN32_LEAN_AND_MEAN
 #include <Windows.h>
 #include "nsis\pluginapi.h"
-#include "msvc_utils.h"
+#include "include/common/msvc_utils.h"
 
 #define NSISFUNC(name) extern "C" void __declspec(dllexport) name(HWND hWndParent, int string_size, TCHAR* variables, stack_t** stacktop, extra_parameters* extra)
 

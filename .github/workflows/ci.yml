@@ -27,5 +27,4 @@ jobs:
           sources: |
             Contrib/CPUFeatures/CPUFeaturesPlugin.cpp
             Contrib/CPUFeatures/CPUFeaturesPlugin.rc
-          strict: false
           release: ${{ github.event_name == 'release' }}
